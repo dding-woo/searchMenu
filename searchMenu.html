@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Menu</title>
+    <style>
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main__wrap {
+            position: relative;
+            top: 10rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .aside__menu {
+            padding: 0.8rem 0;
+            width: 23.06rem;
+            background-color: #BBB;
+        }
+
+        .aside__menu .title {
+            padding: 12px 12px 12px 20px;
+            font-size: 2rem;
+        }
+
+        .menu__item {
+            padding: 12px 12px 12px 20px;
+            font-size: 15px;
+        }
+
+        .menu__item>a {
+            color: black;
+        }
+
+        input {
+            width: 100%;
+            padding: 11px 11px 11px 20px;
+        }
+
+        input[placeholder] {
+            font-size: 15px;
+        }
+
+        .menu__item>input {
+            width: 100%;
+        }
+
+        .page__content {
+            padding: 25px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main__wrap">
+        <aside class="aside__menu">
+            <h1 class="title">Menu</h1>
+            <input type="search" placeholder="Search..">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="">HTML</a></li>
+                <li class="menu__item"><a href="">CSS</a></li>
+                <li class="menu__item"><a href="">JAVAscript</a></li>
+                <li class="menu__item"><a href="">PHP</a></li>
+                <li class="menu__item"><a href="">Python</a></li>
+                <li class="menu__item"><a href="">jQuery</a></li>
+                <li class="menu__item"><a href="">SQL</a></li>
+                <li class="menu__item"><a href="">Bootstrap</a></li>
+                <li class="menu__item"><a href="">Node.js</a></li>
+            </ul>
+        </aside>
+        <div class="page__content">
+            <h2>Page Content</h2>
+            <p>Start to type for a specific category/link inside the search bar to "filter" the search <br>options.
+                <br>
+                <br>
+                Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text.. <br>
+                <br>
+                Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text.. <br>
+                <br>
+                Some text..
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
